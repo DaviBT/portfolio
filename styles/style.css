@@ -74,7 +74,12 @@ ul button {
   border-radius: 8px;
   background-color: rgba(225, 225, 225, 0.1);
   padding: 1em 2em;
-  width: 25em;
+  width: 80vw;
   -webkit-backdrop-filter: blur(4px);
           backdrop-filter: blur(4px);
+  transition: background 0.5s;
+}
+ul button:hover {
+  background-color: rgba(225, 225, 225, 0.05);
+  border: 1.5px solid white;
 }/*# sourceMappingURL=style.css.map */
