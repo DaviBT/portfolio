@@ -120,6 +120,28 @@ ul{
         border-radius:50%;
     }
     }
-
-    
 }
+
+// footer
+footer{
+    text-align:center;
+    font-size:1.2em;
+    font-weight:400;
+
+    a{
+        cursor: pointer;
+        text-decoration: none;
+        
+        &:visited{
+            color:white;
+        }
+    }
+
+    span{
+        transition: .2s;
+    }
+
+    a:hover span{
+        padding-left:.8em;
+    }
+    }
