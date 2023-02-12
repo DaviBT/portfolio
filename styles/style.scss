@@ -80,6 +80,7 @@ ul{
     gap: 16px;
     justify-content:center;
     align-items: center;
+    padding:1.5em 0;
 
     button{
         border: 1px solid $lightGray;
@@ -95,4 +96,13 @@ ul{
             border: 1.5px solid white;
         }
     }
+}
+
+// social links
+#social-links{
+    display:flex;
+    gap:1em;
+    padding:1.5em;
+    font-size:3em;
+    justify-content:center;
 }
