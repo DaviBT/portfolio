@@ -90,7 +90,20 @@ ul button:hover {
 #social-links {
   display: flex;
   gap: 1em;
-  padding: 1.5em;
+  padding: 1.3em;
   font-size: 3em;
   justify-content: center;
+}
+#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em;
+  border-radius: 50%;
+  transition: background 0.1s;
+}
+#social-links a:hover {
+  background: rgba(225, 225, 225, 0.2);
+  padding: 0.5em;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
