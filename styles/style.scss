@@ -125,7 +125,7 @@ ul{
 // footer
 footer{
     text-align:center;
-    font-size:1.2em;
+    font-size:1.8em;
     font-weight:400;
 
     a{
@@ -139,9 +139,10 @@ footer{
 
     span{
         transition: .2s;
+        display:inline-block;
     }
 
     a:hover span{
         padding-left:.8em;
     }
-    }
+}
