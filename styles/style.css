@@ -36,6 +36,7 @@ html::-webkit-scrollbar-thumb {
 body {
   background: url(../assets/bg/Mobile-1080x1920.jpg) no-repeat top center/cover;
   /* background: color image repeat position /size;*/
+  background-attachment: fixed;
   height: 100vh;
   width: 100%;
   overflow-x: hidden;
