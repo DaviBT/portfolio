@@ -1,4 +1,6 @@
 /* variables */
+$text-color:white;
+$bg-url: url(../assets/bg/Mobile-1080x1920.jpg);
 /* colors (from the lighter to the darker) */
 $color1: #023e7d; 
 $color2: #002855;
@@ -21,7 +23,7 @@ $margin1: 2rem 7rem 0rem 7rem;
     text-decoration:none;
     text-transform: none;
     transition:all .5 linear;
-    color:white;
+    color:$text-color;
 }
 
 html{
@@ -42,8 +44,13 @@ html{
         background:$color3;
     }
 
+.light{
+    $text-color:white;
+    $bg-url: url(../assets/bg/MobileLight-1080x1920.jpg);
+}
+
 body{
-    background: url(../assets/bg/Mobile-1080x1920.jpg) no-repeat top center /cover;
+    background: $bg-url no-repeat top center /cover;
     /* background: color image repeat position /size;*/
     background-attachment: fixed;
     height: 100vh;
@@ -93,7 +100,7 @@ ul{
 
         &:hover{
             background-color:rgba(225, 225, 225, 0.05);
-            border: 1.5px solid white;
+            border: 1.5px solid $text-color;
         }
     }
 }
@@ -133,7 +140,7 @@ footer{
         text-decoration: none;
         
         &:visited{
-            color:white;
+            color:$text-color;
         }
     }
 
