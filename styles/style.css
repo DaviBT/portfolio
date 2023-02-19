@@ -14,7 +14,7 @@
   --margin1: 2rem 7rem 0rem 7rem;
   /* bg color */
   --bgColor: rgba(225, 225, 225, 0.1);
-  --bgColorHover:rgba(225, 225, 225, 0.05);
+  --bgColorHover: rgba(225, 225, 225, 0.05);
 }
 
 * {
@@ -51,8 +51,8 @@ html::-webkit-scrollbar-thumb {
 .light {
   --text-color: black;
   --bg-url: url(../assets/bg/MobileLight-1080x1920.jpg);
-  --bgColor:rgba(83, 83, 83, 0.1);
-  --bgColorHover:rgba(83, 83, 83, 0.05);
+  --bgColor: rgba(83, 83, 83, 0.1);
+  --bgColorHover: rgba(83, 83, 83, 0.05);
 }
 
 body {
@@ -108,14 +108,14 @@ ul > li > button {
   padding: 1em 2em;
   width: 80vw;
   backdrop-filter: blur(4px);
-  animation:ease-in-out;
+  animation: ease-in-out;
   transition: background 0.5s;
 }
 
 ul > li > button:hover {
   background-color: var(--bgColorHover);
   border: 1.5px solid var(--text-color);
-  cursor:pointer;
+  cursor: pointer;
 }
 
 /*social links*/
@@ -132,8 +132,8 @@ ul > li > button:hover {
   justify-content: center;
   padding: 0.5em;
   border-radius: 50%;
-  animation:ease-in-out;
-  transition: background 0.1s;
+  animation: ease-in-out;
+  transition: background 0.2s;
 }
 
 #social-links > a:hover {
@@ -150,6 +150,8 @@ footer {
 }
 
 footer > a {
+  transition-duration: 0.3s;
+  animation: ease-in-out;
   cursor: pointer;
   text-decoration: none;
 }
@@ -159,10 +161,13 @@ footer > a:visited {
 }
 
 footer > span {
-  transition: 0.2s;
+  transition-duration: 0.3s;
+  animation: ease-in-out;
   display: inline-block;
 }
 
 footer > a:hover span {
   padding-left: 0.8em;
+  transition-duration: 0.3s;
+  animation: ease-in-out;
 }
