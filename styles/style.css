@@ -12,6 +12,9 @@
   --darkGray: #1e1e1e;
   /* margin */
   --margin1: 2rem 7rem 0rem 7rem;
+  /* bg color */
+  --bgColor: rgba(225, 225, 225, 0.1);
+  --bgColorHover:rgba(225, 225, 225, 0.05);
 }
 
 * {
@@ -48,6 +51,8 @@ html::-webkit-scrollbar-thumb {
 .light {
   --text-color: black;
   --bg-url: url(../assets/bg/MobileLight-1080x1920.jpg);
+  --bgColor:rgba(83, 83, 83, 0.1);
+  --bgColorHover:rgba(83, 83, 83, 0.05);
 }
 
 body {
@@ -99,15 +104,16 @@ ul > li {
 ul > li > button {
   border: 1px solid var(--lightGray);
   border-radius: 8px;
-  background-color: rgba(225, 225, 225, 0.1);
+  background-color: var(--bgColor);
   padding: 1em 2em;
   width: 80vw;
   backdrop-filter: blur(4px);
+  animation:ease-in-out;
   transition: background 0.5s;
 }
 
 ul > li > button:hover {
-  background-color: rgba(225, 225, 225, 0.05);
+  background-color: var(--bgColorHover);
   border: 1.5px solid var(--text-color);
 }
 
