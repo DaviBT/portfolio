@@ -91,16 +91,24 @@ body {
 }
 
 /*switch button*/
+#switch {
+  position: relative;
+  width: 64px;
+  margin: 0 auto;
+}
+
 #switch > button {
   width: 3rem;
   height: 3rem;
   background: white var(--switchImg) no-repeat center;
   border: 0;
   border-radius: 50%;
+  position: absolute;
+  z-index: 1;
 }
 
 #switch > span {
-    display:block;
+  display: block;
   width: 64px;
   height: 24px;
   /* surface-color-dark-mode */
