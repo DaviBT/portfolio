@@ -149,7 +149,7 @@ ul > li > button {
   background-color: var(--bgColor);
   padding: 1em 2em;
   width: 80vw;
-  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
   animation: ease-in-out;
   transition: background 0.5s;
 }
