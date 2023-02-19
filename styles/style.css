@@ -95,6 +95,7 @@ body {
   position: relative;
   width: 64px;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 #switch > button {
@@ -105,6 +106,12 @@ body {
   border-radius: 50%;
   position: absolute;
   z-index: 1;
+  cursor: pointer;
+}
+
+.light #switch  button{
+    right: 0;
+    left: initial;
 }
 
 #switch > span {
@@ -117,6 +124,7 @@ body {
   border: 1px solid var(--bgColorHover);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
+  cursor: pointer;
 }
 
 /* list */
