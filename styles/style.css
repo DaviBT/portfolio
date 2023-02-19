@@ -136,7 +136,7 @@ ul > li > button:hover {
 }
 
 #social-links > a:hover {
-  background: rgba(225, 225, 225, 0.2);
+  background: var(--bgColor);
   padding: 0.5em;
   border-radius: 50%;
 }
