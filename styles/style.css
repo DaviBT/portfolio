@@ -115,6 +115,7 @@ ul > li > button {
 ul > li > button:hover {
   background-color: var(--bgColorHover);
   border: 1.5px solid var(--text-color);
+  cursor:pointer;
 }
 
 /*social links*/
