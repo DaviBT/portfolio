@@ -65,6 +65,8 @@ body {
   height: 100vh;
   width: 100%;
   overflow-x: hidden;
+  animation: ease-in-out;
+  transition: background 1s;
 }
 
 #container {
@@ -107,11 +109,11 @@ body {
   position: absolute;
   z-index: 1;
   cursor: pointer;
+  animation: slide-back 1s;
 }
 
 .light #switch button {
-  right: 0;
-  left: initial;
+  animation: slide-in 1s forwards;
 }
 
 #switch > span {
@@ -213,4 +215,23 @@ footer > a:hover span {
   padding-left: 0.8em;
   transition-duration: 0.3s;
   animation: ease-in-out;
+}
+
+/* animations */
+@keyframes slide-in {
+  from{
+    left:0;
+  }
+  to{
+    left:60%;
+  }
+}
+
+@keyframes slide-back {
+  from{
+    left:60%;
+  }
+  to{
+    left:0;
+  }
 }
