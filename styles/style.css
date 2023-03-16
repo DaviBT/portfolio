@@ -67,6 +67,7 @@ body {
   overflow-x: hidden;
   animation: ease-in-out;
   transition: background 1s;
+  box-sizing: border-box;
 }
 
 #container {
