@@ -21,6 +21,6 @@ function toggleMode() {
     const img = document.querySelector("#profile img");
     img.setAttribute("src", "assets/profile/profile.png"); // changing the image
   } else {
-    img.setAttribute("src", "assets/profile/profile.png");
+    img.setAttribute("src", "assets/profile/light-mode-profile.png");
   }
 }
