@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" class="">
   <head>
+    <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,17 +15,21 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
+    <!-- the div container will contain the main sections of the portfolio -->
     <div id="container">
+      <!-- the profile div contains the profile information -->
       <div id="profile">
         <img src="assets/profile/profile.png" alt="profile image" />
         <p>Davi Torres</p>
       </div>
 
+      <!-- the switch div contains the button that changes the page's theme -->
       <div id="switch" onclick="toggleMode()">
         <button></button>
         <span></span>
       </div>
 
+      <!-- the unordered list contains the information topics about me -->
       <ul>
         <li>
           <button class="about">About me</button>
@@ -36,10 +41,12 @@
           <button class="projects">Projects</button>
         </li>
         <li>
-          <button class="cv">Curriculum Vitae</button>
+          <button class="cv">Professional Qualification</button>
         </li>
       </ul>
     </div>
+
+    <!-- the social-links contains my personal social media profiles -->
     <div id="social-links">
       <a href="https://github.com/davibt" target="_blank">
         <ion-icon name="logo-github"></ion-icon>
@@ -49,6 +56,7 @@
       </a>
     </div>
 
+    <!-- the footer contains a button that allows the user to send a -->
     <footer>
       <a>Let's work together <span>&gt;</span></a>
     </footer>
