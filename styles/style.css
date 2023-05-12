@@ -146,6 +146,38 @@ ul > li {
   background-color: none;
 }
 
+.accordion {
+  cursor: pointer;
+  text-align: center;
+  font-size: 15px;
+  transition: all 0.5 linear;
+}
+
+.active{
+  text-align: left;
+  transition: all 0.5 linear;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background: var(--bgColor);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  font-size:1.3rem;
+}
+
 ul > li > button {
   border: 1px solid var(--lightGray);
   border-radius: 8px;
