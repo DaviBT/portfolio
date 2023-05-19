@@ -1,0 +1,71 @@
+/* Small devices (portrait tablets and phones, 767px and down) */
+/* Medium devices (landscape tablets, 768px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+/*Medium devices*/
+@media screen and (min-width:768px) and (max-width:991px) and (orientation:landscape){
+    body{
+        background-image:linear-gradient(to bottom, var(--purple), var(--green));
+    }
+
+    section#document{
+        width:80vw;
+        height:50vh
+    }
+
+    section#document>div#image{
+        float:left;
+        width:30%;
+        height:100%;
+        background: var(--purple) url(../images/coding-lowSize.jpg) no-repeat;
+    }
+
+    section#document>div#form{
+        float:right;
+        width:65%;
+    }
+
+    form>div.message{
+        background-color:var(--purple);
+        margin:10px 0px;
+        border-radius:8px;
+        width:100%;
+        height:80px;
+        align-items: center;
+    }
+}
+
+/*Large devices*/
+@media screen and (min-width: 991px) and (max-width:1199px){
+    body{
+        background-image:linear-gradient(to bottom, var(--purple), var(--green));
+    }
+
+    section#document{
+        width:80vw;
+    }
+
+    section#document>form{
+        font-size:1.2em;
+    }
+}
+
+/*EL devices*/
+@media screen and (min-width:1200px){
+    body{
+        background-image:linear-gradient(to bottom, var(--purple), var(--green));
+    }
+
+    section#document{
+    width: 90vw;
+    }
+
+    section#document>form{
+        font-size:1.2em;
+    }
+
+    form>input{
+        margin-top:18px;
+    }
+}
