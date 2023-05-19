@@ -18,7 +18,7 @@
         float:left;
         width:30%;
         height:100%;
-        background: var(--purple) url(../images/coding-lowSize.jpg) no-repeat;
+        background: var(--purple) url(../images/coding.jpg) no-repeat;
     }
 
     section#document>div#form{
@@ -49,6 +49,10 @@
     section#document>form{
         font-size:1.2em;
     }
+
+    section#document>div#image{
+        background: var(--purple) url(../images/coding.jpg) no-repeat;
+    }
 }
 
 /*EL devices*/
@@ -67,5 +71,9 @@
 
     form>input{
         margin-top:18px;
+    }
+
+    section#document>div#image{
+        background: var(--purple) url(../images/coding.jpg) no-repeat;
     }
 }

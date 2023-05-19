@@ -63,7 +63,7 @@ div#form>p{
 
 section#document>div#image{
     display:block;
-    background: var(--purple) url(../images/coding.jpg) no-repeat;
+    background: var(--purple) url(../images/coding-lowSize.jpg) no-repeat;
     background-size:cover;
     background-position:center center;
     height:200px;
