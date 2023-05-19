@@ -19,6 +19,10 @@
         width:30%;
         height:100%;
         background: var(--purple) url(../images/coding.jpg) no-repeat;
+        display:block;
+        background-size:cover;
+        background-position:center center;
+        border-radius:20px 20px 0px 0px;
     }
 
     section#document>div#form{
@@ -52,6 +56,12 @@
 
     section#document>div#image{
         background: var(--purple) url(../images/coding.jpg) no-repeat;
+        display:block;
+        background: var(--purple) url(../images/coding-lowSize.jpg) no-repeat;
+        background-size:cover;
+        background-position:center center;
+        height:200px;
+        border-radius:20px 20px 0px 0px;
     }
 }
 
@@ -75,5 +85,11 @@
 
     section#document>div#image{
         background: var(--purple) url(../images/coding.jpg) no-repeat;
+        display:block;
+        background: var(--purple) url(../images/coding-lowSize.jpg) no-repeat;
+        background-size:cover;
+        background-position:center center;
+        height:200px;
+        border-radius:20px 20px 0px 0px;
     }
 }
